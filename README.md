@@ -40,6 +40,7 @@ Update records (BADNET-0.3):
 | 1.0 | Sepolia | 0xD6bfD430134759a0deebF58da785c116B524A968 | HY | 20221123 | |
 | 1.0 | BSC | 0x91123B38E7622430465050ccfC0b3b30Fd7e2199 | DC | 20221127 | |
 | 1.0 | Mumbai | 0x9fdE03AD8c5Db494Bd2AD8f898c97e9b5aac91Bd | TZJ | 20221129 | |  
+| 2.0 | Sepolia | | SJH | 20231229 | |
 
 </div>
 
