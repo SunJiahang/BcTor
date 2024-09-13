@@ -4,7 +4,7 @@ Enhancing Censorship Resistance in Anonymity Networks through Blockchain-Based D
 ### Overview
 The project is a decentralized anonymity network based on onion routing and blockchain, which makes use of two open source projects, Tor and Ethereum.
 
-### BADNET-1.0
+### BcTor-2.0
 BcTor (version 1.0) is build on top of Tor version 0.4.6.5 and the Sepolia Ethereum Testnet. The onion routing technique is derived from the Tor source code, but BcTor hides the Tor Directory Authority (DirAuth) behind an Ethereum system. More concretely, directory services are not provided directly by the DirAuth, but are supported through an Ethereum smart contract (SC) written in Solidity. The code for the directory contract is in *DirectoryContract.sol*. We also provide a patch file *badnet.patch* for readers to track our changes to the Tor code.
 
 ### Setup
@@ -18,9 +18,9 @@ Users can download the source code and then build a private anonymity network by
 Our project is currently maintaining a small-scale anonymity network, including a smart contract that provides directory services, onion routers that provides relay services, and the client program for testing the network functionality.
 
 The prototype system is still being tested and continuously updated. Details of the current system are as follows:
-- Source Code: BADNET
-- Contract Address: [0xD6bfD430134759a0deebF58da785c116B524A968](https://sepolia.etherscan.io/address/0xd6bfd430134759a0deebf58da785c116b524a968)
-- Deployment Date: November 23th, 2022
+- Source Code: BcTor
+- Contract Address: [0x5293Bb897db0B64FFd11E0194984E8c5F1f06178](https://sepolia.etherscan.io/address/0x5293Bb897db0B64FFd11E0194984E8c5F1f06178)
+- Deployment Date: Jan 5th, 2024
 - Number of Relays: 8
 - Descriptor's Upload Period: 1 hour
 
